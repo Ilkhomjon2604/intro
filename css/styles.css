@@ -84,11 +84,13 @@ img {
 }
 
 .main-wrapper {
-  padding: 80px 144px;
+  padding: 80px 0;
   display: flex;
   background-color: #F1F4FF;
   max-width: 1440px ;
+  width: 100%;
   margin: 0 auto;
+  justify-content: center;
 
 }
 .intro-text {
@@ -159,16 +161,61 @@ img {
 
 .sing-up-form {
   width: 570px;
+  height: 640px;
   background-color:#fff;
   padding: 55px 60px;
   border-radius: 20px;
-
+  display: flex;
+  flex-direction: column;
 }
 .subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000;
+  flex-grow: 1;
 }
+
+.input{
+  margin-bottom: 20px;
+  padding: 11px 0 ;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #555;
+  outline:none;
+
+}
+.input:focus{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+
+}
+
 .btn-s {
+  width: 100%;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background-color: #655AF2;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
 }
 .terms {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #555555;
+ text-align: center;
 }
 .highlight {
+  color: rgb(235, 78, 22);
+  font-weight: 600;
 }
