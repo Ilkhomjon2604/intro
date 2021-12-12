@@ -124,6 +124,7 @@ img {
   border-radius: 41px;
   opacity: 0.8;
   cursor: pointer;
+  margin-bottom: 65px;
 }
 .fnb:hover{
   opacity: 1;
@@ -144,19 +145,21 @@ img {
 .btn {
   text-align: center;
   background-color: #4DC490;
-  padding: 29px;
+  /* padding: 29px; */
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-top: -78px;
 
 }
-.btn a{
+.a-btn{
   font-weight: bold;
   font-size: 19px;
   line-height: 23px;
   text-align: center;
   color: #FFFFFF;
   text-decoration: none;
+  display: block;
+  padding: 29px;
 }
 
 .sing-up-form {
